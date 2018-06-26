@@ -1,0 +1,127 @@
+.carousel{
+  height: 600px;
+  margin:auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+.carousel .item {
+  height: 100%;
+}
+
+.carousel img {
+  position: absolute;
+    max-width: 70%; 
+    height:auto;
+    margin: auto;
+}
+
+@media (min-width: 320px) {
+  .carousel,
+  .carousel .item,
+  .carousel .item-mask,
+  .carousel-inner .item .item-mask img {
+    height:200px;
+  }
+}
+
+@media (min-width: 480px) {
+  .carousel,
+  .carousel .item,
+  .carousel .item-mask,
+  .carousel-inner .item .item-mask img {
+    height:350px;
+  }
+}
+
+@media (min-width: 768px) {
+  .carousel,
+  .carousel .item,
+  .carousel .item-mask,
+  .carousel-inner .item .item-mask img {
+    height:400px;
+  }
+}
+
+@media (min-width: 980px) {
+  .carousel,
+  .carousel .item,
+  .carousel .item-mask,
+  .carousel-inner .item .item-mask img {
+    height:500px;
+  }
+}
+.carousel-caption{
+  font-size:15px;
+  background: rgba(0,0,0,0.5);
+}
+
+h1{
+  max-width:100%;
+  font-family: Arial;
+	position: relative;
+	padding: 10px 20px;
+	font-size:20px;
+	text-align:center;
+	border-top: solid 1px #325A8C;
+	border-bottom: solid 1px #325A8C;
+}
+h1::before,
+h1::after{
+	content: '';
+	position: absolute;
+	top: -10px;
+	width: 1px;
+	height: calc(100% + 20px);
+	background-color: #325A8C;
+}
+h1::before{left: 10px;}
+h1::after{right: 10px;}
+
+.container{
+  float: left;
+  max-width: 85%;
+}
+
+.Concept{
+   margin-top:100px;
+   font-family: "Segoe Script";
+   font-size: 18px;
+}
+
+.park{
+   margin-top:100px;
+   font-family: "Segoe Script";
+   font-size: 18px;
+}
+
+.text{
+  font-size:15px !important;
+  font-family:"メイリオ";
+}
+
+.shop{
+  margin-top: 100px;
+}
+
+.img-round{
+  width: 100px;
+  text-align: center;
+  margin:  auto;
+}
+
+.media-object{
+ max-width: 300px;
+ max-height: 300px;
+}
+
+.shops{
+   font-family: "Segoe Script";
+}
+
+#information{
+  float: right;
+  width: 15%;
+  margin-top: 100px;
+  margin-right: 100px;
+}
