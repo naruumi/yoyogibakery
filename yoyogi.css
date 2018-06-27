@@ -78,10 +78,18 @@ h1::after{
 h1::before{left: 10px;}
 h1::after{right: 10px;}
 
-.container{
+@media (min-width: 980px) {
+ .container{
   float: left;
   max-width: 85%;
+ }
 }
+
+/*@media (min-width: 320px) {
+  .container{
+    float:none;
+  }
+}*/
 
 .Concept{
    margin-top:100px;
@@ -111,17 +119,29 @@ h1::after{right: 10px;}
 }
 
 .media-object{
- max-width: 300px;
- max-height: 300px;
+ max-width: 200px;
+ max-height: 200px;
 }
 
 .shops{
    font-family: "Segoe Script";
 }
 
-#information{
+
+@media (min-width: 980px) {
+ #information{
   float: right;
   width: 15%;
   margin-top: 100px;
   margin-right: 100px;
+ }
+}
+
+/*@media (min-width: 320px) {
+ #information{
+  width: 80%;
+  margin-top: 100px;
+  margin-right: 20px;
+  margin-left: 20px;
+ }
 }

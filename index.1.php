@@ -138,62 +138,79 @@
 
 <div class="shop">
   <h1 class="shops">Shops</h1>
-  <div class="media">
-    <!-- 1.画像の配置 -->
-    <a class="media-left" href="#">
-        <img class="media-object img-circle" src="365shop.jpg">
-    </a>
-    <!-- 2.画像の説明 -->
-    <div class="media-body">
-        <h3 class="media-heading">365日</h3>
-        <p>八幡にある「食のセレクトショップ」</p>
+  <div class="row">
+    <div class="col-sm-5">
+      <!-- 1.画像の配置 -->
+      <a class="" href="#">
+        <img class="media-object img-responsive img-circle" src="365shop.jpg">
+      </a>
+    </div>
+    <div class="col-sm-7">
+      <!-- 2.画像の説明 -->
+      <h3 class="media-heading">365日</h3>
+      <p>八幡にある「食のセレクトショップ」</p>
     </div>
 </div>
 <hr />
 
 <div class="media">
     <!-- 2.画像の説明 -->
-    <div class="media-body">
+    <div class="row">
+    <div class="col-sm-7">
         <h3 class="media-heading">Harrits</h3>
         <p>上原の坂のふわふわドーナッツ</p>
     </div>
+    </div>
     <!-- 1.画像の配置 -->
-    <a class="media-right" href="#">
-        <img class="media-object img-circle" src="harritsshop.jpg">
+    <div class="col-sm-offset-5 col-sm-5">
+    <a class="" href="#">
+        <img class="media-object img-circle img-responsive" src="harritsshop.jpg">
     </a>
+</div>
 </div>
 
 <hr />
 
 <div class="media">
-    <!-- 1.画像の配置 -->
-    <a class="media-left" href="#">
-        <img class="media-object img-circle" src="teconashop.jpg">
-    </a>
-    <!-- 2.画像の説明 -->
-    <div class="media-body">
-        <h3 class="media-heading">tecona bagel works</h3>
-        <p>ふわ、もち、ぎゅっの3種類ベーグル</p>
+    <div class="row">
+    
+    <div class="col-sm-offset-5 col-sm-7">
+      <!-- 2.画像の説明 -->
+      <h3 class="media-heading">tecona bagel works</h3>
+      <p>ふわもちぎゅっのベーグル</p>
+    </div>
+    <div class="col-sm-5">
+      <!-- 1.画像の配置 -->
+      <a class="" href="#">
+        <img class="media-object img-responsive img-circle" src="teconashop.jpg">
+      </a>
     </div>
 </div>
+</div>
+
+
 <hr />
 
 <div class="media">
     <!-- 2.画像の説明 -->
-    <div class="media-body">
-        <h3 class="media-heading">Tomoca Coffee</h3>
-        <p>エチオピアの香りをお楽しみに</p>
+    <div class="row">
+    <div class="col-sm-7">
+        <h3 class="media-heading">tacona</h3>
+        <p>エチオピアの老舗コーヒー日本第一号店</p>
+    </div>
     </div>
     <!-- 1.画像の配置 -->
-    <a class="media-right" href="#">
-        <img class="media-object img-circle" src="tomocashop.jpg">
+    <div class="col-sm-offset-5 col-sm-5">
+    <a class="" href="#">
+        <img class="media-object img-circle img-responsive" src="tomocashop.jpg">
     </a>
 </div>
+</div>
+</div>
+</div>
+</div>
+</div>
 
-</div>
-</div>
-</div>
-</div>
 
 <section id="information">
 <h2 class="section-title　">Information</h2>
